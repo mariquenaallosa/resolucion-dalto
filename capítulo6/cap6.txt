@@ -1,0 +1,170 @@
+DOM - Document Object Model
+
+	-Definición
+	-Concepto Extendido
+
+	-Nodo -	 Un nodo en el DOM es cualquier etiqueta del cuerpo , 	 	como un párrafo, el mismo body o incluso las etiquetas 		  de una lista.
+
+		*Document: el nodo document es el nodo raíz, a partir del cual derivan el resto de nodos.
+
+		*Element: nodos definidos por etiquetas html.
+
+		*Text: el texto dentro de un nodo element se considera un nuevo nodo hijo de tipo text(texto).
+
+		*Attribute: los atributos de las etiquetas definan nodos, ( en JS no los veremos como nodos, sino como información asociada al nodo de tipo element).
+
+		*Comentarios y otros: los comentarios y los otros elementos como las declaraciones doctype en cabecera de los documentos HTML generan nodos.
+
+
+
+
+
+
+DOCUMENT -MÉTODOS DE SELECCIÓN DE ELEMENTOS (document.)
+
+	-getElementById() - Selecciona un elemento por ID
+
+	-getElementsByTagName() - Señecciona todos los elementos que coincidan con el nombre de la etiqueta especificada.
+
+	-querySelector()- Devuelve el primer elemento que coincida con el grupo especificado de selectores.
+
+	-querySelectorAll()- Devuelve todos los elementos que coincidan con el grupo especificado de selectores.
+
+
+MÉTODOS PARA DEFINIR , OBTENER  Y ELIMINAR VALORES DE ATRIBUTOS(element.)
+	
+	-setAttribute() - Modifica el valor de un atributo
+	-getAttribute() - Obtene el valor de un atributo
+	-removeAttribute() - Remueve el valor de un atributo
+
+
+
+
+
+ATRIBUTOS GLOBALES 
+
+	-class - lista de clases del elemento separadas por espacios
+
+	-contenteditable - indica si el elemento puede ser modificable por el usuario (bool)
+
+	-dir - indica la direccionalidad del texto 
+
+	-hidden - indica si el elemento aún no es . o ya no es , relevante.
+
+	-id - define un identificador único
+
+	-style - contiene declaraciones de estilos CSS para ser aplicadas al elemento.
+
+	-tabindex - indica si el elemento puede obtener un focus de input
+
+
+	-title - contiene un texto con información relacionada al elemento que pertenece.
+
+
+
+ATRIBUTOS DE INPUT
+	 
+	-className
+	-value
+	-type
+	-accept
+	-form
+	-minlength
+	-placeholder
+	-required
+
+
+ATRIBUTO STYLE 
+	
+	- usos y ejemplos 
+	-propiedades Camel Case 
+
+
+CLASES , CLASSLIST Y MÉTODOS DE CLASSLIST
+
+	-Definición y usos
+			element.classList
+	-add()-> añade una clase
+	-remove() -> remueve una clase
+	-item() -> deuvleve la clase del indice especificado
+	-contains() -> verifica si ese elemento posee o no , la clase especificada
+	-replace() -> reemplaza una clase por otra
+	- toggle() -> si no tiene la clase especificada , la agrega , si ya la tiene , la elimina,
+
+
+OBTENCIÓN Y MODIFICACIÓN DE ELEMENTOS 
+
+	-textContent -> devuelve el texto de cualquier nodo.(SOLO EL TEXTO DEL CONTENIDO)
+	
+
+	-innerText -> devuelve el texto visible de un node element.[NO SE USA]
+	-outerText -> devuelve el texto que se enecuentra en las etiquetas html[NO SE USAR MÁS]
+
+
+
+	-innerHTML -> devuelve el contenido html de un elemento (CONTENIDO)
+	-outerHTML - devuelve el codigo HTML completo del elemento(CONTENIDO Y ETIQUETA)
+
+
+
+
+CREACIÓN DE ELEMENTOS EN HTML(document.)
+	-createElements() TODO EN MAYUSCULAS->crea un elemento
+
+	-createTextNode()-> para crear un text node
+
+	-appendChild() -> manera de generar un ELEMENTO dentro de un nodo
+
+	-ECMAS6 createDocumentFragment() -> aparece para optimizar recursos// Muy bueno porque genera como un objeto con todo el fragmento que queremos agregar y lo podriamos agregar con un appendChild para transformarlo en Elemento
+
+
+
+****UN ELEMENTO NO PUEDE SER AGREGADO DOS VECES PORQUE UN ELEMENTO ES UN OBJETO ÚNICO******
+
+
+OBTENCION Y MODIFICICAIÓN DE CHILDS (HIJOS) (element.)
+
+	-firstChild ->si tengo espacios me muesta text 
+	-lastChild
+	-firstElementChild -> no importa si tengo espacios me toma sólo el primer elemento
+	-lastElementChild
+	-childNodes -> Nos devuelve todos los nodos hijos (me devuelve un NODE LIST que NO es lo mismo que un array), me toma los espacios
+	-children -> Me devuelve los elementos hijos 
+
+
+***HTML collection NO SE PUEDE RECORRER COMO UN NODELIST*****
+	SE PODRÍA RECORRER CON FOR NO CON FOREACH
+		FOR IN -> devuelve indices
+		FOR OF -> devuelve el valor
+
+
+
+MÉTODOS DE CHILDS(HIJOS)
+
+	-replaceChild()->reemplazar un hijo
+	-removeChild()-> remover un hijo
+	-haschildNodes()-> verificar si tiene un elemento hijo o no 
+
+PROPIEDADES PARENTS(PADRES)
+
+	-parentElement -> Elige el padre elemento del elemento
+	-parentNode -> Elegir el padre nodo 
+	**Son casi lo mismo pero no **
+
+PROPIEDADES DE SIBLINGS(HERMANOS)
+
+	-nextSibling -> nodo hermano
+	-previousSibling -> nodo hermano
+	-nextElementSibling -> elemento hermano
+	-previousElementSibling -> elemento hermano 
+
+NODOS -EXTRAS 
+
+ 	-closest() -> selecciona el elemento ascendente más cercano
+
+
+
+
+                                   CREAR SOLUCIONES 6.0  - HISTORIA DE COFLA
+
+Cofla se quedó encerrado en su casa porque se le rompió la llave, pero necesita ir urgente a la facultas porque no puede faltar ni una sola vez si quiere aprobar las materias que le faltan, ya que está al límite de asistencias , entonces tiene que llamar a un cerrajero y pedirle que traiga la llave indicada , no hay tiempo suficiente como para que el cerrajero vea cual es la llave indicada , solo puede traer una y probar , entonces Cofla se da cuenta que es una llave antigua , por ende no hace falta afilarla , sólo necesita decirle el modelo de llave para que el cerrajero venga , pero cofla tiene tanta mala suerte que ni siquiera tienen internet para poder buscar , lo que si tiene es a un programador que le hará un sistema para mostrarle las llaves posibles y determinar cual es la indicada , hoy sólo 20 modelos posibles , permitir que cofla seleccione el indicado. 

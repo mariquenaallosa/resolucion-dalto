@@ -1,0 +1,31 @@
+-----CONSOLE------
+        FUNCIONES DE REGISTRO
+    -assert() - Aparece un mensaje de error en la consola si la afirmación es falsa. Si la afirmación es verdadera, no aaparecerá nada. (NO ESTANDAR).
+    -clear() - limpia la consola
+    -error() - Muestra un mensaje de error en la consola Web.
+    -info() - Emite un mensaje informativo a la consola web. En firefox y chrome, se muestra un pequeño ícono "i" junto a estos elementos en el registro de la consola web.
+    -log() - Muestra un mensaje en la consola web (o del interperete de JS)
+    -table() - Esta funciontoma un argumento obligatorio:data ,  que debe ser un array o un objeto, y un parámetro adicional: columns y nos muestra una tabla en consola.
+    -warn() - imprime un mensaje de advertencia en la consola web.
+    -dir() - Despliega una lista interactiva d elas propiedasdes del objeto JS especificado[NO ESTANDAR]
+
+        FUNCIONES DE CONTEO
+    -count() - Registra el número de veces que se llama a count(). Esta función toma como argumento opcional una etiqueta.
+    -countReset()- Resetea el contador console.count()
+
+        FUNCIONES DE AGRUPACIÓN
+    -group() - Crea un nuevo grupo en linea en el registro
+    -grupEnd() - Remueve un grupo en línea en el registro
+    -groupCollapsed() - Crea un grupo en linea pero contrario , empieza cerrado
+
+
+        FUNCIONES DE TEMPORIZADOR
+
+    -time() - inicia un temporizador.
+    -timeEnd() -Registra le valor actual de un temporizador
+    -tiemLog() - Detiene el temporizador (muestra el tiempo transcurrido desde que empieza el temporizador)
+
+
+
+    
+    
