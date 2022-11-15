@@ -22,24 +22,29 @@
 
     scroll y scrollTo -> son casi lo mismo 
 
-
+        By(relativo)
 
     - resizeBy() - cambia el tamaño de la ventana actual de una cantidad específica
     - resizeTo() - redimensionadinámicamente la ventana
     - moveBy() - Mueve la ventana en una ubicación relativa.
     - moveTo() - Mueve la ventana en una ubicación absoluta.
-
+        -->casi no se usan<-- 
 
     Objetos barprop
-            - locationbar
+            - locationbar 
             - menubar
             - personalbar
             - scrollbars
             - statusbar
             - toolbar
+        En caso de que sea:
+                ->visible = true
+                ->no sea visible = false
 
 
 44) Location 
         - window.location.href -> devuelve el href (URL) de la página actual
         - window.location.hostname -> devuelve el nombre de dominio del servidor web
         - window.location.pathname -> devuelve la ruta y el nombre de archivo de la página.
+        - window.location.protocol -> devuelve el protocolo web utilizado(http: o https:)
+        - window.location.assign()-> carga un nuevo documento 
