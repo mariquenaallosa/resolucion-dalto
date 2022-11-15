@@ -1,6 +1,0 @@
-42) Introducción a Window
-    - Hereda las propiedades de EvenTarget
-    - open() - Carga un recurso en el contexto de un nuevo navegador o uno que ya existe
-    - close() - cierra la ventana actual, o la ventana en la que se llamó
-    - closed() - indica si la ventana referenciada está cerrada o no.
-    - name - obtiene / establece el nombre del contexto de exploración de la ventana.

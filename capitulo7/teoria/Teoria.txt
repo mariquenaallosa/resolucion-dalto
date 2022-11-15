@@ -1,0 +1,45 @@
+42) Introducción a Window -> se encuentra en la jerarquía más alta 
+    - Hereda las propiedades de EvenTarget
+    - open() - Carga un recurso en el contexto de un nuevo navegador o uno que ya existe
+    - close() - cierra la ventana actual, o la ventana en la que se llamó
+    - closed - indica si la ventana referenciada está cerrada o no.
+    - stop () - detiene la carga de recursos en el contexto de navegación actual.
+    es como la x del navegador, deja de ejecutar la web
+
+    - alert() - muestra un cuadro de alerta con el contenido especificado y un boton aceptar.
+    - print() - Abre el cuadro de dialogo Imprimir para imprimir el documento actual.
+    - prompt() - Abre un cuadro de dialogo con un mensaje que solicita al usuario un dato String.
+    - confirm() - Abre un cuadro de dialogo con un mensaje y dos botones: Aceptar y Cancelar.
+
+
+    -screen - devuelve una referencia al objeto de pantalla asociado con la ventana.-> es un objeto 
+    - screenLeft - devuelve la distancia horizontal entre el borde izquierdo del navegador y el borde izquierdo de la pantalla.
+    - screenTop - devuelve la distancia vertical entre el borde superior del navegador y el borde superior de la pantalla.
+    Left y Top -> son valores solamente de lectura
+    - scrollX - devuelve el numero de pixeles que el documento se desplaza actualmente horizontalmente
+    - scrollY - devuelve el numero de pixeles que el documento se desplaza actualmente verticalmente
+    - scroll() - desplaza la ventana a un lugar particualr en el documento. (con options y con posiciones)
+
+    scroll y scrollTo -> son casi lo mismo 
+
+
+
+    - resizeBy() - cambia el tamaño de la ventana actual de una cantidad específica
+    - resizeTo() - redimensionadinámicamente la ventana
+    - moveBy() - Mueve la ventana en una ubicación relativa.
+    - moveTo() - Mueve la ventana en una ubicación absoluta.
+
+
+    Objetos barprop
+            - locationbar
+            - menubar
+            - personalbar
+            - scrollbars
+            - statusbar
+            - toolbar
+
+
+44) Location 
+        - window.location.href -> devuelve el href (URL) de la página actual
+        - window.location.hostname -> devuelve el nombre de dominio del servidor web
+        - window.location.pathname -> devuelve la ruta y el nombre de archivo de la página.
