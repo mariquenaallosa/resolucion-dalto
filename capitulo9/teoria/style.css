@@ -1,0 +1,15 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.contenedor-1 {
+    background-color: aquamarine;
+    padding: 20px;
+}
+ 
+.contenedor-2 {
+    background-color: blueviolet;
+    padding: 20px;
+}

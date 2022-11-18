@@ -1,5 +1,5 @@
 const btn =  document.querySelector('.btn');
-
+const contenedor1 = document.querySelector('.contenedor-1');
 
 // Event handlers
 // btn.onclick = () => {
@@ -59,3 +59,9 @@ const btn =  document.querySelector('.btn');
 btn.addEventListener("dblclick", ()=>{
         alert("saludar")
     })
+
+
+// mouseover 
+contenedor1.addEventListener("mouseover", (e)=>{
+    alert("di click en el contenedor verde")
+})
