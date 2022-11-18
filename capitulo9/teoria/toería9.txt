@@ -1,0 +1,33 @@
+x) EVENTOS 
+    - Definición
+    - Manejador de Eventos o "Event Handlers"
+    - Ecucha de Eventos o "Event Listeners"
+    - El objeto Event
+    - Floujo de Eventos o "Event flow "
+    - Event building vs Event Capturing
+    - event.stopPropagation()
+
+x) EVENTOS DE MOUSE
+    - click -> ocurre con un click
+    - dblick -> ocurre con un doble click
+    - mouseover -> ocurre cuando el puntero se mueve sobre un elemento o sobre uno de sus hijos
+    - mouseout -> ocurre cuando se mueve el puntero fuera de un elemento o de sus hijos secundarios
+    ====otros====
+    - coontext -> ocurre con un click en el botón derecho en un elemento para abrir un menú contextual 
+    - mouseenter -> ocurre cuando el puntero se mueve sobre un elemento 
+    - mouseleave -> ocurre cuando el puntero se mueve fuera de un elemento
+    - mouseup -> ocurre cuando un usuario suelta un botón del mouse sobre un elemento
+    - mousemove -> ocurre cuando el puntero se mueve mientras está sobre un elemento
+
+
+x) EVENTOS DEL TECLADO 
+    - keypress -> ocurre cuando una tecla se presiona
+    - keydown -> ocurre cuando una tecla se deja presionada
+    - onkeyup -> ocurre después de que los dos eventos anteriores hayan concluido
+
+X) EVENTOS DE LA INTERFAZ
+    - abort -> ocurre cuando un elemento madre eliminar a su hijos
+    - error -> ocurre cuando sucede un error durante la carga de un archivo multimedia
+    - load -> ocurre cuando un objeto se ha cargado 
+    - beforeunload -> ocurre antes de que el documento está a punto de descargarse 
+    - unload -> ocurre una vez que se ha descargado una página
