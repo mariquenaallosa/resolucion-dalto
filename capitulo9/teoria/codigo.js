@@ -95,3 +95,16 @@ input.addEventListener("keyup", (e)=>{
 
 // Eventos de la interfaz
 
+// load - dos maneras
+window.addEventListener("load",()=>{
+    console.log("ha cargado correctamente");
+}); 
+addEventListener("load",()=>{
+    console.log("cargó correctamente");
+});
+
+
+// beforeunload
+addEventListener("beforeunload",()=>{
+ console.log("beforeunload, te estas por ir del sitio")   
+})

@@ -27,11 +27,18 @@ x) EVENTOS DEL TECLADO
     - onkeyup -> ocurre después de que los dos eventos anteriores hayan concluido
 
 X) EVENTOS DE LA INTERFAZ
-    - abort -> ocurre cuando un elemento madre eliminar a su hijos
     - error -> ocurre cuando sucede un error durante la carga de un archivo multimedia
-    - load -> ocurre cuando un objeto se ha cargado 
+    - load -> ocurre cuando un objeto se ha cargado(funciona con window) 
     - beforeunload -> ocurre antes de que el documento está a punto de descargarse 
+    antes de que te vayas del sitio
     - unload -> ocurre una vez que se ha descargado una página
-    - resize -> ocurre cuando se cambia el tamaño de
-    - scroll -> 
-    - select -> 
+    cuando te vas del sitio
+    - resize -> ocurre cuando se cambia el tamaño de la vista del documento
+    - scroll -> ocurre cuando se desplaza la barra de desplazamiento de un elemento
+    - select -> ocurre después de que el usuario selecciona algún texto de <input> o <textarea>
+
+X) TIMERS (TEMPORIZADORES)
+    - setTimeout ()
+    - setInterval ()
+    - clearTimeout ()
+    - clearInterval ()
