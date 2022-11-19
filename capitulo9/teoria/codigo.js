@@ -56,12 +56,38 @@ const contenedor1 = document.querySelector('.contenedor-1');
 
 
 // dbclick 
-btn.addEventListener("dblclick", ()=>{
-        alert("saludar")
-    })
+// btn.addEventListener("dblclick", ()=>{
+//         alert("saludar")
+//     })
 
 
 // mouseover 
-contenedor1.addEventListener("mouseover", (e)=>{
-    alert("di click en el contenedor verde")
+// contenedor1.addEventListener("mouseover", (e)=>{
+//     alert("di click en el contenedor verde")
+// })
+
+// mouseover 
+// contenedor1.addEventListener("mouseout", (e)=>{
+//     alert("di click en el contenedor")
+// })
+// contex - > click derecho
+
+contenedor1.addEventListener("contextmenu", (e)=>{
+    alert("di click en el contenedor")
 })
+
+
+// Eventos de teclados
+const input = document.querySelector('.input-prueba');
+
+input.addEventListener("keydown", (e)=>{
+    console.log("una tecla fue presionada");
+})
+
+input.addEventListener("keydown", (e)=>{
+    console.log("un usuario presionó una tecla")
+});
+
+input.addEventListener("keyup", (e)=>{
+    console.log("una tecla fue soltada")
+});

@@ -5,11 +5,20 @@ body {
 }
 
 .contenedor-1 {
-    background-color: aquamarine;
+    background-color: rgb(209, 0, 0);
     padding: 20px;
 }
  
 .contenedor-2 {
     background-color: blueviolet;
     padding: 20px;
+}
+
+
+.input-prueba {
+    border : 1px solid #000;
+    border-radius: 5px;
+    padding: 5px;
+    color: #444;
+    outline: none;
 }
