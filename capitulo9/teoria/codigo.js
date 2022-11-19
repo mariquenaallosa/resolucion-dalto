@@ -77,7 +77,7 @@ contenedor1.addEventListener("contextmenu", (e)=>{
 })
 
 
-// Eventos de teclados
+// Eventos de teclados (en orden de ejecución)
 const input = document.querySelector('.input-prueba');
 
 input.addEventListener("keydown", (e)=>{
@@ -85,9 +85,13 @@ input.addEventListener("keydown", (e)=>{
 })
 
 input.addEventListener("keydown", (e)=>{
-    console.log("un usuario presionó una tecla")
+    console.log("un usuario presionó una tecla y la soltó")
 });
 
 input.addEventListener("keyup", (e)=>{
     console.log("una tecla fue soltada")
 });
+
+
+// Eventos de la interfaz
+
