@@ -1,0 +1,9 @@
+X) CONTROL DE FLUJO Y MANEJO DE ERRORES
+    - sentencias de bloque
+    - sentencias de control de flujo
+    - sentencias de manejo de excepciones
+
+X) Sentencia Switch 
+    - sintaxis y clausula clase
+    - break 
+    - default
