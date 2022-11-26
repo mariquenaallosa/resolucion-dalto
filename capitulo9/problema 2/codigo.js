@@ -28,7 +28,7 @@ let alumnos = [
 
 const btn = document.querySelector(".btn-confirmar");
 const contenedor = document.querySelector(".grid-container");
-
+let htmlCode = "";
 for (alumno in alumnos){
     console.log(alumnos[alumno])
     let datos = alumnos[alumno]
@@ -36,7 +36,7 @@ for (alumno in alumnos){
     let email = datos["email"]
     let materia = datos["materia"]
 
-    let htmlCode = ` 
+    htmlCode += ` 
     <div class="grid-item nombre">${nombre}</div>
         <div class="grid-item emial">${email}</div>
         <div class="grid-item materia">${materia}</div>
@@ -48,8 +48,10 @@ for (alumno in alumnos){
         </div>
     `
 
-    contenedor.innerHTML+=htmlCode;
+    
 }
+
+contenedor.innerHTML = htmlCode;
 
 btn.addEventListener("click",()=>{
     let confirmar = confirm("¿realmente quieres confirmar las mesas?");
