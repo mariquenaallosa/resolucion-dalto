@@ -15,8 +15,10 @@ X) Excepciones y Tipos de Excepciones
     - DOMException y DOMError
 
 X) Try...Catch
+-> no lo usamos para problemas de sintaxis
     - sintaxis
     - Onjeto Error
-    - catch incondicional
-    - catch condicional
-    - Sentencia Throw
+    - catch incondicional -> no tiene nada adentro
+    - catch condicional -> tienen una condición dentro
+    - Sentencia Throw -> nos lanza un error/excepción
+    - Finally -> se ejecuta de todas formas , haya o no error
