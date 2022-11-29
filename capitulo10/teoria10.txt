@@ -7,3 +7,16 @@ X) Sentencia Switch
     - sintaxis y clausula clase
     - break 
     - default
+
+
+X) Excepciones y Tipos de Excepciones
+    - Definición y usos
+    - Excepciones ECAMScript
+    - DOMException y DOMError
+
+X) Try...Catch
+    - sintaxis
+    - Onjeto Error
+    - catch incondicional
+    - catch condicional
+    - Sentencia Throw
