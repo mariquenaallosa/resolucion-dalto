@@ -1,0 +1,21 @@
+X) Desventajas de trabajar de manera obsoleta 
+
+-¿Cuándo algo se vuelve obsoleto?
+    - "Deprecated"
+    - Inútiñ
+    - No recomendado
+    - Con bugs o fallos
+    - está por ser reemplazado
+    - Hay mejores formas de hacerlo
+
+- los efectos negativos(aplicados a métodos , clases y propiedades)
+    - Uso excesivo de recursos
+    - Código con Bugs o fallos
+    - Código innecesariamente largo
+    - SEO
+
+- ¿Cómo verificar si está obsoleto?
+    - 1 de cada 3 Webs utiliza librerías de JS obsoletas.
+    - verificar si tienen o usan funciones , métodos, objetos o metodologías obsoletas
+    - verificar en los sitios basados en estándares osificiales.
+
