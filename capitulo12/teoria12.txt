@@ -2,3 +2,12 @@ X) Callbacks
     - concepto (function in function)
     - Ejemplos
     - Problemas de los Callbacks
+
+
+X) Promesas 
+    - concepto
+    - ¿Qué puede representar?
+        *terminación de una operación asíncrona
+        *fracaso de una operación asíncrona
+    - Ejemplos y solución al problema de los Callbacks
+    
