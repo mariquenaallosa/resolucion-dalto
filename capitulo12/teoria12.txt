@@ -11,3 +11,6 @@ X) Promesas
         *fracaso de una operación asíncrona
     - Ejemplos y solución al problema de los Callbacks
     
+X) Funciones asíncronas (Operador Async)
+    - Usos
+     Operador Await

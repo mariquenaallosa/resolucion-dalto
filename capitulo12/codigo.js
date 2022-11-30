@@ -148,6 +148,59 @@ obtenerPersona(id)
   })
   .then((instagram) => {
     console.log(instagram);
-  }).catch((err) => {
+  })
+  .catch((err) => {
     console.log(err);
   });
+
+//   ** Funciones asíncronas
+// -> las promesas son aíncronas
+//  -> aparecieron  con ES7 y cambiaron la forma de trabajar con JS , llamadas a servidores y esa onda
+
+const objeto = {
+  propiedad1: "valor1",
+  propiedad2: "valor2",
+  propiedad3: "valor3",
+};
+
+// const obtenerInformación = () => {
+//     return new Promise((resolve, reject)=>{
+//         setTimeout(() => {resolve (objeto)},1000)
+
+//     })
+// };
+
+// obtenerInformación().then(resultado=> console.log(resultado));
+
+// ** Await Async
+// const mostrarResultado = async () => {
+//     resultado = await obtenerInformación();
+//     console.log(resultado);
+// };
+
+// mostrarResultado();
+
+// ** Mejor uso de Async
+const obtenerInformación = (text) => {
+  return new Promise((resolve, reject) => {
+    setTimeout(() => {
+      resolve(text);
+    }, Math.random() * 200);
+  });
+};
+
+// obtenerInformación("1: hola").then((resultado) => console.log(resultado));
+// obtenerInformación("2: sigo").then((resultado) => console.log(resultado));
+// obtenerInformación("3: chau").then((resultado) => console.log(resultado));
+// con esto compruebo que las promesas no me sirven para traer las consultas en orden por lo tanto utilizo otra forma
+
+const mostrarData = async () => {
+    data1 = await obtenerInformación("1: Mariquena");
+    data2 = await obtenerInformación("2: Aldana");
+    data3 = await obtenerInformación("3: Mili") ;
+    console.log(data1);
+    console.log(data2);
+    console.log(data3);
+};
+
+mostrarData();
