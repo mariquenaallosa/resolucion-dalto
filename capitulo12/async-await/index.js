@@ -1,36 +1,37 @@
-const materiasHMTL = document.querySelector(".materias");
+const materiasHTML = document.querySelector(".materias")
 
-// Esto serían los datos del servidor
 const materias = [
     {
-        nombre:"Fisica 1",
+        nombre:"Fisica 4",
         nota: 7
     },
     {
-        nombre:"Matematicas 1",
+        nombre:"Matematicas 4",
         nota: 8
     },
     {
-        nombre:"Programacion",
+        nombre:"Programacion 3",
         nota: 9
     },
     {
-        nombre:"Quimica",
+        nombre:"Base de datos 4",
         nota: 7
     },
     {
         nombre:"Biologia",
         nota: 8
     },
-];
+]
+
+
+let id = 0;
 
 const obtenerMateria = (id)=>{
-    const promise = new Promise((res,rej)=>{
+    return new Promise((res,rej)=>{
         materia = materias[id];
         if(materia == undefined) rej("La materia no existe")
         else setTimeout(()=>{res(materia)},Math.random()*400)
     })
-    return promise
 }
 
 const devolverMaterias = async ()=>{
@@ -47,4 +48,4 @@ const devolverMaterias = async ()=>{
     }
 }
 
-obtenerMateria()
+devolverMaterias()
