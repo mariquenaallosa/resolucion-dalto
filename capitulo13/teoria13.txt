@@ -1,0 +1,4 @@
+71) Peticiones HTTP 
+    - Definición
+    - Cliente & Servidor
+    - No guardan información
