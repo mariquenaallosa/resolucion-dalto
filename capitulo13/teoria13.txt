@@ -2,3 +2,27 @@
     - Definición
     - Cliente & Servidor
     - No guardan información
+---- Las peticiones las podemos generar con AJAX,Feetch , axios----
+
+
+
+
+72) Datos estructurados (JSON) JavaScript Object Notation
+    - Definición, usos y sintaxis 
+    -Serialización y Deserialización
+        - Serializado ->  cuando typeof da string.Así se envía y recibe datos.
+        - Deserializado -> JSON como lo conocemos.
+    - Método parse() - Convierte un string con estructura JSON a Formato JSON (deserializar)
+    - Método stringify() - Convierte un dato de JS en una cadena de texto JSON(serializar)
+    - JSON Polyfill
+        - Polyfill -> simulan cualquier funcion que el navegador no soporta. Pero casi nunca se usa
+
+
+73) AJAX -> JavaScript asíncrono y XML - Asincronimus JavaScript an XML
+    - Introducción e instalación del servidor  
+    - Objeto XMLHttpRequest
+    - Enviar Peticiones GET 
+    - Trabajar el resultado de las peticiones
+    - Objeto ActiveXObject
+    - Nueva forma de trabajar el resultado
+    - Enviar peticiones POST
