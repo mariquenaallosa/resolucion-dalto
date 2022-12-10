@@ -26,3 +26,13 @@
     - Objeto ActiveXObject
     - Nueva forma de trabajar el resultado
     - Enviar peticiones POST
+
+73) Fetch -> Manera de trabajar con XMLHTTP
+    - Introducción
+    - Basado en promesas -> siempre nos da una  respuesta en forma de promesa encapsulada
+    - Objeto Fetch
+    - text () -> promesa desencapsulada en forma de string
+    - json() -> promesa desencapsulada en forma de Objeto
+    - blob() -> imágenes. Crea una especie de ruta imaginaria donde se almacena la imagen durante la petición.   createObjectURL()
+    - formData()
+    - arrayBuffer()
