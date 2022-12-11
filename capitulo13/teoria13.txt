@@ -36,3 +36,13 @@
     - blob() -> imágenes. Crea una especie de ruta imaginaria donde se almacena la imagen durante la petición.   createObjectURL()
     - formData()
     - arrayBuffer()
+
+
+74) Librería Axios -> Reemplaza fetch , Basado en XMLHttpRequest que no se usa tanto hoy en día.
+    --> Por defecto al igual que fetch , trabaja con peticiones GET
+    - Introducción e instalación
+    - Basado en promesas 
+    - Objeto Axios
+    - método get() y post()
+    - formas de enviar los datos
+    - ventajas
