@@ -46,3 +46,7 @@
     - método get() y post()
     - formas de enviar los datos
     - ventajas
+
+74) Fetch y Axios con Await y Async
+    - Implementación
+    - Importancia del Try catch

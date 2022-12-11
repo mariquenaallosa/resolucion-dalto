@@ -1,0 +1,18 @@
+body {
+    color: #fff;
+    font-family: sans-serif;
+}
+
+#nombre , #edad{
+    font-size: 40px;
+    margin: 20px;
+}
+
+
+.nombre , .edad {
+    background-color: black;
+    color: #fff;
+    font-size: 25px;
+    margin: 5px;
+    padding: 20px;
+}
