@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Estado de cursada</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- 
+        Cofla ya está cursando su último semestre en la universidad. Efectivamente tuvo todo lo necesario para pasar el año, peeero el tiene una duda, quiere saber cuantas personas que cursan el último semestre, se reciben y cuantas no, esta información la tiene una API de su universidad a la que el tiene fácil acceso
+
+        - Crear un sistema para obtener esa información
+        
+        - Mostrarla ordenadamente en un sitio web.
+     -->
+
+
+    <button id="getInfo">Obtener Info</button>
+    <div class="resultado">
+        <div class="aprobados">Aprobados: <b class="num-aprobados"></b> </div>
+        <div class="desaprobados">Desaprobados: <b class="num-desaprobados"></b> </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/axios@1.1.2/dist/axios.min.js"></script>
+    <script src="codigo.js"></script>
+    
+</body>
+</html>
