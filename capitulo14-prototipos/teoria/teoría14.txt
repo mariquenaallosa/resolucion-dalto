@@ -1,0 +1,25 @@
+77) Prototipos
+    - Definición
+    __proto__: Object -> todos los objetos tienen este proto Object
+
+    - Prototype Chain -> cadena de prototipos
+
+    - Prototype Object
+
+
+
+78) Características
+    - un prototipo definido en su código fuente es mutable.Es decir , que si lo creamos nosotros puede cambiar.
+
+    - Es en sí mismo un objeto, asi como otros. 
+
+    - Tiene una existencia física en la memoria.
+
+    - Puede ser modificado y llamado.
+
+    - Puede ser visto como un modelo ejemplar de una familia de objeto.
+    
+    - Un objeto hereda propiedades (valores y métodos) de su prototipo.
+
+
+79) Propiedad proto (dunder proto)
